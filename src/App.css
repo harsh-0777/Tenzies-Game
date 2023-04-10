@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+.App{
+  margin-top: 0;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-ele{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 50px;
+  padding: 50px 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.main-sub-ele{
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dice{
+  text-align: center;
+  -webkit-box-shadow: 5px 2px 8px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 2px 8px -1px rgba(0,0,0,0.75);
+   box-shadow: 5px 2px 8px -1px rgba(0,0,0,0.75);
+}
+
+.sub-ele-btn{
+  margin: 50px 5px;
+  padding: 15px 50px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 7px;
+
+}
+
+.intro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 80px;
+}
+
+.intro-h1{
+  text-align: center;
+  font-size: 50px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.intro-p{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: italic;
+  padding: 0px;
+  margin: 0px;
+}
+
+.intro-rule{
+  margin-top: 80px;
+}
+
+.into-rule-h2{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: italic;
+  padding: 0px;
+  margin: 0px;
+}
+
+.intro-ol, li{
+  font-size: 20px;
+  font-style: italic;
+  padding: 0px;
+  margin: 0px;
 }
